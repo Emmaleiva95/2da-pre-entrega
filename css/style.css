@@ -1,0 +1,54 @@
+.input-cantidad{
+    max-width: 80px;
+}
+.bloque-notificacion{
+    padding: 0.8rem 1rem;
+    color: #fff;
+    position: fixed;
+    /*background-color: #198754;*/
+    border-radius: 5px;
+    right: 20px;
+    top: 20px;
+    font-size: 12px;
+    z-index: 9999;
+    p{
+        margin: 0;
+    }
+}
+.img-tabla{
+    max-width: 80px;
+}
+
+.ventana-popup{
+    display: none;
+    background: #0000002d;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    z-index: 99999;
+    .popup-info{
+        background: #fff;
+        height: fit-content;
+        padding: 1rem 3rem;
+        margin-top: 10rem;
+        border-radius: 10px;
+        h2{
+            border-bottom: 1px solid #0000002d;
+            padding: 1rem 0;
+            margin-bottom: 1rem;
+        }
+        p{
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+#spanCarrito{
+    background-color: red;
+    padding: 0.2rem;
+    color: #fff;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 12px;
+    display: none;
+}
