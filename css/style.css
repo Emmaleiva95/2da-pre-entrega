@@ -1,3 +1,17 @@
+.seccion-banner{
+ background: url(../assets/img/banner.jpg) #000000c2;
+ background-position: center bottom;
+ background-size: cover;
+background-blend-mode: multiply;
+ .row{
+    min-height: 400px;
+    .col-banner{
+        background-color: #4b4b4bb4;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+ } 
+}
 .input-cantidad{
     max-width: 80px;
 }
@@ -25,7 +39,7 @@
     position: absolute;
     top: 0;
     height: 100vh;
-    z-index: 99999;
+    z-index: 999;
     .popup-info{
         background: #fff;
         height: fit-content;
@@ -51,4 +65,8 @@
     font-weight: bold;
     font-size: 12px;
     display: none;
+}
+
+.msj-carrito{
+    margin-bottom: 10rem;
 }

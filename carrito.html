@@ -9,7 +9,6 @@
 
   <link rel="stylesheet" href="./css/style.css">
 
-  <script defer src="./js/data.js"></script>
   <script defer src="./js/funciones.js"></script>
   <script defer src="./js/carrito.js"></script>
 </head>
@@ -73,14 +72,43 @@
       <!-- POPUP-->
       <div class="w-100 justify-content-center ventana-popup">
         <div class="w-50 mx-auto popup-info">
-          <h2>Compra finalizada</h2>
-          <p>Su compra ha sido procesada con éxito, gracias por confiar en nosotros.</p>
-          <a href="index.html" class="btn btn-outline-primary">Finalizar</a>
+          <h2>Finalizar Compra</h2>
+          <p>¡Gracias por confiar en nosotros y en nuestros productos!</p>
+          <form action="" class="mb-4">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="" class="form-label">Nombre Completo</label>
+                <input type="text" id="nombre" class="form-control input-form" value="Juan Perez" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="" class="form-label">Email</label>
+                <input type="email" id="email" class="form-control input-form" value="juan@gmail.com" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="" class="form-label">Teléfono</label>
+                <input type="text" id="telefono" class="form-control input-form" value="115644654" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="" class="form-label">Dirección</label>
+                <input type="text" id="direccion" class="form-control input-form" value="Av. Libertador 123" required>
+              </div>
+            </div>
+          </form>
+         
+          <a href="index.html" id="btnFormPopUp" class="btn btn-outline-primary">Finalizar</a>
       </div>
     </div>
 
 
+    
+    <footer class="bg-black pt-5 pb-4 mt-5">
+      <div class="container">
+        <p class="text-center text-white">Copyright 2024 | Todos los derechos reservados</p>
+      </div>
+    </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

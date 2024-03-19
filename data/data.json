@@ -1,0 +1,51 @@
+
+[
+    {
+       "id":321,
+       "titulo":"1984 George Orwell",
+       "descripcion":"Novela política de ficción distópica, escrita por George Orwell entre 1947 y 1948 y publicada el 8 de junio de 1949.",
+       "precio":35000,
+       "stock":12,
+       "imagen":"1984.png"
+    },
+    {
+       "id":351,
+       "titulo":"El Gran Gatsby",
+       "descripcion":"novela de 1925 escrita por el autor estadounidense F. Scott Fitzgerald que sigue a un grupo de personajes que viven en la ciudad ficticia de West Egg en la próspera Long Island, en el verano de 1922.",
+       "precio":17000,
+       "stock":7,
+       "imagen":"elgrangatsby.png"
+    },
+    {
+       "id":851,
+       "titulo":"Cadaver Exquisito",
+       "descripcion":"Una despiadada distopía en la que Agustina Bazterrica inspira, con el poder explosivo de la ficción, debates de suma actualidad",
+       "precio":25000,
+       "stock":10,
+       "imagen":"cadaverexquisito.png"
+    },
+    {
+       "id":789,
+       "titulo":"La sombra del viento",
+       "descripcion":"novela de Carlos Ruiz Zafón publicada en 2001, el primer libro de la saga del Cementerio de los libros olvidados y un superventas mundial, con elementos de realismo mágico e intriga, y más de quince millones de ejemplares vendidos en 36 idiomas diferentes.",
+       "precio":17000,
+       "stock":5,
+       "imagen":"lasombradelviento.png"
+    },
+    {
+       "id":456,
+       "titulo":"La nave de los locos",
+       "descripcion":"una obra trascendental en la trayectoria de Cristina Peri Rossi y la novela más importante del post-boom latinoamericano.",
+       "precio":115000,
+       "stock":50,
+       "imagen":"lanavedelocos.png"
+    },
+    {
+       "id":999,
+       "titulo":"Miseria",
+       "descripcion":"En esta nueva novela, Dolores Reyes despliega el riquísimo universo de su libro debut, que le valiera el reconocimiento mundial y unánime de público y crítica.",
+       "precio":125000,
+       "stock":10,
+       "imagen":"miseria.png"
+    }
+ ]
